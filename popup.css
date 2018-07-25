@@ -1,0 +1,76 @@
+body {
+  min-width: 150px;
+  padding: 5px;
+}
+
+.videos-table {
+  margin-top: 5px;
+  min-width: 150px;
+}
+
+#no-videos-found {
+  font-weight: bolder;
+  color: red;
+}
+
+.download-i {
+  color: green;
+}
+
+.download-button:hover {
+  /* csslint ignore:start */
+  filter: alpha(opacity=90);
+  /* csslint ignore:end */
+  background-image: -webkit-linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+  background-image: linear-gradient(transparent, rgba(0,0,0, 0.05) 40%, rgba(0,0,0, 0.10));
+}
+
+.download-i:hover {
+  opacity: 0.6;
+}
+
+/* http://fontello.com/ is used to create small font icons */
+@font-face {
+  font-family: 'videolookup';
+      src: url('./font/videolookup.eot?26325529');
+      src: url('./font/videolookup.eot?26325529#iefix') format('embedded-opentype'),
+           url('./font/videolookup.woff?26325529') format('woff'),
+           url('./font/videolookup.ttf?26325529') format('truetype'),
+           url('./font/videolookup.svg?26325529#videolookup') format('svg');
+      font-weight: normal;
+      font-style: normal;
+}
+
+.font-icon {
+  font-family: "videolookup";
+  font-style: normal;
+  font-weight: normal;
+  
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  
+  /* You can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}

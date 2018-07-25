@@ -1,0 +1,11 @@
+{
+  "name": "Video lookup",
+  "version": "1.0.0",
+  "description": "Searches the active Website for Video Files and show them in a List for easy downloads.",
+  "browser_action": {
+    "default_title": "Video lookup",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "<all_urls>"],
+  "manifest_version": 2
+}
